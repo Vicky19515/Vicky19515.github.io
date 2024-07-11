@@ -241,6 +241,14 @@ img {
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  text-align: center;
+  
+}
+.about__text{
+  margin-bottom: var(--mb-2);
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .about__img {
   justify-self: center;
@@ -334,6 +342,9 @@ img {
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+}
+.button:hover{
+  color: black;
 }
 
 
